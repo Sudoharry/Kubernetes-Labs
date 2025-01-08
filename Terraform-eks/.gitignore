@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfrc
+*.tfplan
+.terraform/
+
+# Local environment files
+.env
+.envrc
+
+# AWS credentials (if using default profiles)
+.aws/
+
+# IDE and editor specific files (VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+*.iml
+
+# System files (macOS, Linux, etc.)
+.DS_Store
+Thumbs.db
+
+# Terraform lock file (optional, depending on team preference)
+# terraform.lock.hcl
+
