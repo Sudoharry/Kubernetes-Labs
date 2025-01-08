@@ -53,6 +53,11 @@ Each service runs in its own pod, and you want to expose them under a single dom
    - Incoming requests to `example.com/catalog` are routed to `catalog-service` pods.
    - The ALB handles SSL termination, path-based routing, and load balancing between the pods.
 
+### Kubernetes Ingress with AWS ALB Ingress Controller
+---
+![image](https://github.com/user-attachments/assets/e314457a-091a-445a-bf76-71b621bd2cfa)
+
+---
 ### With a General Ingress Controller (e.g., NGINX):
 1. Deploy the NGINX Ingress Controller in your Kubernetes cluster.
 2. Create an Ingress resource with rules for `example.com` paths.
