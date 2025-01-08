@@ -239,3 +239,7 @@ kubectl apply -f <ingress-file-name>.yaml
    - `https://example.com/catalog`
    - `https://example.com/order`
    - `https://example.com/user`
+
+### Resources
+
+- https://www.youtube.com/watch?v=RRCrY12VY_s (Author: Abhishek Veeramala)
